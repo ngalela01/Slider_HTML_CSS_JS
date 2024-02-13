@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+
+}
+.slider{
+    width: 326px;
+    margin: auto;
+    position: relative;    
+}
+.btn-precedent ,.btn-suivant{
+    color: white;
+    position: absolute;
+    font-size: 100px;
+    top: 35%;
+    cursor: pointer;
+}
+
+.btn-suivant{
+    right: 0%;
+}
+.slider .btn-precedent ,.slider .btn-suivant  {
+    visibility: hidden;
+}
+.slider:hover  .btn-precedent, .slider:hover .btn-suivant   {
+    visibility: visible;} /*  réaction sur les bouttons au moment du survole du slide */
